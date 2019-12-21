@@ -64,7 +64,7 @@ a{
     right: 0;
     bottom: 0;
     width: 30%;
-    background-color: #ffffff;
+    background-color: transparent;
     border-color:#cccccc;
 
     
@@ -75,8 +75,6 @@ a{
     display: inline-flex;
     float: right;
  
-   
-    
 
 }
 .linkText{
@@ -99,16 +97,19 @@ a{
     padding-right: 20px;
     border-right: solid;
     border-width: 0.1em;
-    border-color: black;  
+    border-color: black;
+      
 }   
 #about {
     padding-right: 20px;
     border-right: solid;
     border-width: 0.1em;
-    border-color: black;    
+    border-color: black;
+        
 }
 #contact{
     padding-left: 2em;
+    
 }
 #bio {
     padding-left: 2em;
@@ -199,9 +200,7 @@ a{
     text-align: center;
     color: black;
 }
-.textCR{
-    
-}
+
 #name {
     border: 2px solid #456879;
     border-radius: 10px;
@@ -228,17 +227,36 @@ button{
     width: 10em;
     border-radius: 1em;
 }
-.box {
-    
-    width: 12em;
-    height: 150px;
-    border: 2px solid black;
-  }
 .boxlbl{
     background-color: rgb(202, 202, 226);
-    color: rgb(244, 244, 238);
+    color: rgb(62, 33, 165);
     padding: 0.5em;
-   
+
     
-    
+}
+
+.box-1 {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+.box-2 {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+.box-3 {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+.box-4 {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+.box-5 {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
 }
