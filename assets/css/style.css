@@ -129,9 +129,7 @@ a{
     align-items: flex-start;
     flex-wrap:wrap;
 }
-.content{
-    
-}
+
 .aboutMe{
     margin-left: 9em;
     padding: 15px;
@@ -156,37 +154,17 @@ a{
     text-align: center;
     margin-right: 50px;
 }
+
 .title2{
     border-bottom: solid;
 }
+
 .linkImgs{
     padding: 10px;
     display: flex;
 }
-.fb{
-    padding: 10px;
-    align-items:right;
-    flex:1;
-}
-.youtube{
-    padding: 10px;
-    align-items:center;
-    flex:1;
-}
-.in{
-    padding: 10px;
-    align-items:left;
-    flex:1;
-}
-.ifb{
-    height:100px;
-}
-.iyoutube{
-    height:100px;
-}
-.iin{
-    height:100px;
-}
+
+
 .bdm{
     padding-top: 5px;
     background-color: rgb(108, 163, 108);
@@ -260,3 +238,64 @@ button{
     width: 300px;
     overflow: hidden;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #333;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .content,
+    .sidebar {
+      width: 100%;
+    }
+  
+    .sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 320px) {
+    body {
+      background-color: #333;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .content,
+    .sidebar {
+      width: 100%;
+    }
+  
+    .sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+   @media screen and (max-width: 168px) {
+    body {
+      background-color: grey;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .content,
+    .sidebar {
+      width: 100%;
+    }
+  
+    .sidebar {
+      margin-top: 40px;
+    }
+  }
