@@ -1,7 +1,8 @@
 
 body{
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/silver_scales.png);
-    }
+background-image: url('https://cdn.pixabay.com/photo/2015/05/05/09/42/paper-753508_960_720.jpg');
+}
+    
 
 h1{
     font-size: 2.5rem;
@@ -46,7 +47,6 @@ a{
 .topContent{
     width: 62em;
     margin-left: 12em;
-    
     display: flex;
     flex: right;
     
@@ -65,26 +65,22 @@ a{
     bottom: 0;
     width: 30%;
     background-color: transparent;
-    border-color:#cccccc;
-
-    
+    border-color:#cccccc;  
 }
 
 #navbar{
     list-style: none;
     display: inline-flex;
     float: right;
- 
-
+    margin-top: 40px;
 }
+
 .linkText{
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     font-style: normal;
     padding: 0em;
-    margin:0em; 
-   
-
+    margin: 10px; 
 }
 .textLink:link{
     color: blue;
@@ -94,22 +90,20 @@ a{
 }
 
 #portfolio {
-    padding-right: 20px;
     border-right: solid;
-    border-width: 0.1em;
+    border-width: 0.15em;
     border-color: black;
-      
+    text-align: center;      
 }   
 #about {
-    padding-right: 20px;
     border-right: solid;
-    border-width: 0.1em;
+    border-width: 0.15em;
     border-color: black;
+    text-align: center;
         
 }
 #contact{
-    padding-left: 2em;
-    
+    text-align: center;
 }
 #bio {
     padding-left: 2em;
@@ -124,21 +118,21 @@ a{
 .mdl{
     padding: 3em;
     display: flex;
-    border-top: slategrey solid 0.1em;
+    border-top: 0.1em;
     justify-content:space-between;
     align-items: flex-start;
     flex-wrap:wrap;
+    width: 50%
 }
 
 .aboutMe{
     margin-left: 9em;
     padding: 15px;
     background-color: rgb(244, 244, 238);
-    width: 60em;
+    
 }
 .title1{
     border-bottom: solid;
-    
 }
 
 .me{
@@ -147,6 +141,7 @@ a{
     height:20em;
     float: left;
     }
+
 .links{
     padding: 10px;
     background-color: white;
@@ -208,94 +203,103 @@ button{
 .boxlbl{
     background-color: rgb(202, 202, 226);
     color: rgb(62, 33, 165);
-    padding: 0.5em;
-
-    
+    width: 250px;
 }
 
 .box-1 {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     overflow: hidden;
 }
 .box-2 {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     overflow: hidden;
 }
 .box-3 {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     overflow: hidden;
 }
 .box-4 {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     overflow: hidden;
 }
 .box-5 {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     overflow: hidden;
 }
+  
+@media screen and (max-width: 1920px){
+    
+    .container {
+      width: 100%;
+    }
+
+    .md1 {
+        width: 100%;
+        padding: 20px;
+      }
+  
+    .content {
+      width: 100%;
+    }
+
+    .box-set {
+        columns: 3;
+    }
+}
+
+@media screen and (max-width: 980px) {
+   
+  
+    .container {
+      width: 100%;
+    }
+
+    .md1 {
+        width: 100%;
+        padding: 20px;
+      }
+  
+    .content {
+      width: 100%;
+    }
+
+    .top {
+        width: 100%;
+        padding: 20px;
+    }
+    .box-set {
+        columns: 2;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
-    body {
-      background-color: #333;
-    }
-  
+    
     .container {
       width: 100%;
-      padding: 20px;
     }
+
+    .md1 {
+        width: 100%;
+        padding: 20px;
+      }
   
-    .content,
-    .sidebar {
+    .content {
       width: 100%;
     }
-  
-    .sidebar {
-      margin-top: 40px;
+
+    .top {
+        width: 100%;
+        padding: 20px;
     }
-  }
-  
- 
-  @media screen and (max-width: 320px) {
-    body {
-      background-color: #333;
+
+   .box-set {
+        columns: 1;
     }
-  
-    .container {
-      width: 100%;
-      padding: 20px;
-    }
-  
-    .content,
-    .sidebar {
-      width: 100%;
-    }
-  
-    .sidebar {
-      margin-top: 40px;
-    }
-  }
-  
-   @media screen and (max-width: 168px) {
-    body {
-      background-color: grey;
-    }
-  
-    .container {
-      width: 100%;
-      padding: 20px;
-    }
-  
-    .content,
-    .sidebar {
-      width: 100%;
-    }
-  
-    .sidebar {
-      margin-top: 40px;
-    }
-  }
+
+}
