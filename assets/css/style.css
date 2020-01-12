@@ -122,13 +122,14 @@ a{
     justify-content:space-between;
     align-items: flex-start;
     flex-wrap:wrap;
-    width: 50%
+    width: 60%;
 }
 
 .aboutMe{
     margin-left: 9em;
     padding: 15px;
     background-color: rgb(244, 244, 238);
+    width: 60%;
     
 }
 .title1{
