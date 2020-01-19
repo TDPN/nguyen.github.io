@@ -1,4 +1,3 @@
 # Password Generator Homework:
 
-Created html page with CSS styling.
-Added Javascript code.
+Password generates randomly with Uppercase letters, lowercase letters and Special Characters. You can choose between 8-128 characters in length.

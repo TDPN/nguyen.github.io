@@ -4,50 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Password Generator</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Random Password Generator</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
 
 </head>
-
 <body>
-    <div class="c1">
-        <div class="h1">
-            <h1>Password Generator</h1>
-        </div>
-        <div class="c2">
 
-        <div class="h2">
-            <h1>Generate a Password</h1>
-        </div>
-        <br>
-        <br>
-            <textarea id="message">
-            Your Secure Password
-            </textarea>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Random Password Generator</a>
+    </nav>
 
-        <br>
-        <br>
-        <div class="b1">
-        <button>
-            <p>Generate Password</p>
-        </button>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-8 col-sm-12 mx-auto">
+
+                <div class="content">
+                    <h4>Random Password Generator</h4>
+                    <br />
+                    <input type="text" id="display">
+                    <br />
+                    <input type="range" min="8" max="128" name="slider" id="slider">
+                    <br />
+                    <button onclick="generate()">Generate</button>
+                    <button onclick="copyPassword()">Copy to Clipboard</button>
+                    <div id="length"></div>
+                </div>
+
+
+            </div>
+
         </div>
-        <div class="b2">
-        <button>
-            <p>Copy to Clipboard</p>
-        </button>
-        </div>
-        </div>
+
     </div>
-
-
-
-
-
-
-
-
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

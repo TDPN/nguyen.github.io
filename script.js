@@ -1,19 +1,31 @@
+function generate(){
 
+    let comp = document.getElementById("slider").value;
+    let values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
+    let password = "";
 
+    for(var i = 0; i <= comp; i++){
+        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
+    }
 
-
-var numericCharacters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-var specialCharacters = ["!", "@", "#", "$", "%", "&", "_", "<", ">", "?"]
-
-var pwd = []
-
-var userlength = prompt('Allakazam!')
-
-for(var i = 0, i < userlength; i++){
-    var char = alpha[Math.floor(math.random()* alpha.length)]
-    pwd.push(char)
+    document.getElementById("display").value = password;
 }
 
-console.log(pwd.join())
+document.getElementById("length").innerHTML = "Length: 25";
+
+document.getElementById("slider").oninput = function(){
+
+    if(document.getElementById("slider").value > 0){
+        document.getElementById("length").innerHTML = "Length: " + document.getElementById("slider").value;
+    }
+    else{
+        document.getElementById("length").innerHTML = "Length: 1";
+    }
+
+}
+function copyPassword(){
+
+    document.getElementById("display").select();
+    document.execCommand("Copy");
+    alert("Password copied to clipboard!");
+}

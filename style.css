@@ -1,49 +1,24 @@
-
-
-
-.c1{
-    margin-left: 9em;
-    padding: 15px;
-    background-color: rgb(244, 244, 238);
-    width: 60%;
-}
-
-.h1{
-    text-align: center;
-}
-
-.c2{
-    margin-left: 9em;
-    padding: 15px;
-    background-color: rgb(244, 244, 238);
-    width: 60%;
-}
-
-.h2{
-    border-bottom: solid #c4c4c42d;
-}
-
-#message{
-    border: 2px;
-    border-radius: 20px;
-    height: 13em;
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 20px;
     width: 100%;
-    border-style: dotted
-    
 }
 
-.b1{
-    background-color:rgb(202, 202, 226);
-    color:rgb(244, 244, 238);;
-    height: 4em;
-    width: 10em;
-    border-radius: 1em;
+#display{
+    width: 100%;
 }
 
-.b2{
-    background-color:rgb(202, 202, 226);
-    color:rgb(244, 244, 238);;
-    height: 4em;
-    width: 10em;
-    border-radius: 1em;
+#slider{
+    width: 100%;
+}
+
+#length{
+    display: inline-block;
+    width: 100px;
+}
+
+.previous_passwords{
+    margin-bottom: 20px;
 }
