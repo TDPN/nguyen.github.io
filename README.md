@@ -1,2 +1,1 @@
-# Scratch
-Scratch
+Updated portfolio page with projects.
