@@ -1,6 +1,8 @@
 
 body{
-background-image: url('https://cdn.pixabay.com/photo/2015/05/05/09/42/paper-753508_960_720.jpg');
+background-image: url('https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1357&q=80');
+background-size: contain;
+background-position: center;
 }
     
 
@@ -12,16 +14,19 @@ h1{
 }   
 h2{
     font-size: 2rem;
-    color: #4aaaa5;
+    color: #000000;
     text-decoration-style: none;
 }   
 h3{
     font-size: 1.5em;
-    color: rgb(202, 202, 226);
+    color: rgb(255, 174, 0);
 }   
+h5{
+    color: #F0F8FF;
+}
 p{
     font-size: 1em;
-    color: #777777;
+    color: #F0F8FF;
 }
 a{
     margin:0;
@@ -126,10 +131,11 @@ a{
 }
 
 .aboutMe{
-    margin-left: 9em;
+    margin-left: auto;
     padding: 15px;
-    background-color: rgb(244, 244, 238);
+    background-color: rgba(244, 244, 238, 0.568);
     width: 60%;
+    
     
 }
 .title1{
@@ -303,4 +309,161 @@ button{
         columns: 1;
     }
 
+}
+
+
+.about-the-author {
+    background-color: #fefefe;
+    padding: 1rem;
+    border: 1px solid #cacaca;
+  }
+  
+  .about-the-author .separator-left {
+    text-align: left;
+  }
+  
+  .about-the-author .separator-left::before, .about-the-author .separator-left::after {
+    display: table;
+    content: ' ';
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  
+  .about-the-author .separator-left::after {
+    clear: both;
+  }
+  
+  .about-the-author .separator-left::after {
+    position: relative;
+    width: 5rem;
+    border-bottom: 0.125rem solid #1779ba;
+    margin: 0.3rem auto 0;
+    margin-left: 0;
+  }
+  
+  .about-the-author .author-title {
+    text-transform: uppercase;
+  }
+  
+  .about-the-author .author-social {
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+  
+  .about-the-author .author-social .fa-stack {
+    display: inline-block;
+  }
+  
+  .about-the-author .author-social .fa-stack.facebook {
+    color: #4c70ba;
+  }
+  
+  .about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
+    color: #3b5998;
+  }
+  
+  .about-the-author .author-social .fa-stack.twitter {
+    color: #83c3f3;
+  }
+  
+  .about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
+    color: #55acee;
+  }
+  
+  .about-the-author .author-social .fa-stack.linkedin {
+    color: #009ee8;
+  }
+  
+  .about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
+    color: #007bb5;
+  }
+  
+  .about-the-author .author-image {
+    border: 1px solid #cacaca;
+  }
+  
+  
+.four-up-feature {
+    text-align: center;
+    
+  }
+  
+  .four-up-feature .four-up-feature-header {
+    margin-bottom: 3rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .four-up-feature {
+    margin-bottom: 2rem;
+  }
+  
+  .four-up-feature {
+    margin-bottom: 2rem;
+  }
+
+  .four-up-feature-text {
+    margin-bottom: 2rem;
+    color: #F0F8FF;
+  }
+
+  .four-up-feature-image {
+    margin-bottom: 2rem;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+  }
+    
+  .logo {
+      height: 100px;
+      width: 100px;
+  }
+
+  
+.portfolio-resume-spacing {
+  margin-bottom: 2rem;
+}
+
+.portfolio-resume-wrapper {
+  padding: 2rem 4rem;
+}
+
+.portfolio-resume-headshot {
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  height: 250px;
+  width: 150px;
+}
+
+.portfolio-resume-header {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.portfolio-resume-contact-info {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-resume-contact-info a {
+  color: #0a0a0a;
+}
+
+.portfolio-resume-contact-info .fa {
+  font-size: 1.4rem;
+  padding-right: 0.8rem;
+  vertical-align: middle;
+  color: #0a0a0a;
+}
+
+.list-color {
+  color: #F0F8FF;
 }

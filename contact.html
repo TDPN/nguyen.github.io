@@ -1,91 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Don Nguyen</title>
-        <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
-        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
-    </head>
-    
-<body>
-  <div class=container>
-    <div class=top>
-        <div class=topContent>
-            <div class=name>
-                <h1>Don Nguyen</h1>
-            </div>
-         <nav class=header>  
-            <ul id="navbar">
-                <li id=about>
-                <a href="index.html"><h2 class=linkText>About</h2></a>
-                </li>
-                <li id=portfolio>
-                <a href="portfolio.html"><h2 class=linkText>Portfolio</h2></a>
-                </li>
-                <li id=contact>
-                <a href="contact.html"><h2 class=linkText>Contact</h2></a>
-                </li>
-            </ul>
-          </nav>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Don Nguyen</title>
+    <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#"
+          ><strong>Welcome to Don's Portfolio</strong></a
+        >
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li>
+              <button
+                type="button"
+                class="button hollow topbar-responsive-button"
+              >
+                <i class="fa fa-info-circle"></i>
+                <a href="index.html">About</a>
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="button hollow topbar-responsive-button"
+              >
+                <i class="fa fa-briefcase"></i>
+                <a href="portfolio.html">Portfolio</a>
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="button hollow topbar-responsive-button"
+              >
+                <i class="fa fa-envelope"></i>
+                <a href="contact.html">Contact</a>
+              </button>
+            </li>
+          </ul>
         </div>
-    </div>
-</div>
+      </div>
+    </nav>
 
-    
-    <div class=mdl>
-        <div class=aboutMe>
-            <div class=title1>
-                <h2>Contact</h2>
-            </div>
-            <br>
-        <div class=content>
-    
-         <label class="label">Name</label>
-        <br>
-        <br>
-            <textarea id="name">
-                   
-            </textarea>
-        <br>
-        <br>
-         <label class="label">Email</label>
-        <br>
-        <br>
-            <textarea id="email">
-              
-            </textarea>
-        <br>
-        <br>
-         <label class="label">Message</label>
-        <br>
-        <br>
-            <textarea id="message">
-                
-            </textarea>
-        <br>
-        <br>
-        <button>
+
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css\reset.css" />
+    <link rel="stylesheet" type="text/css" href="css\header_footer.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css" />
+  </head>
+
+  <body>
+    <div class="mdl">
+      <div class="aboutMe">
+        <div class="title1">
+          <h2>Contact</h2>
+        </div>
+        <br />
+        <div class="content">
+          <label class="label">Name</label>
+          <br />
+          <br />
+          <textarea id="name"> </textarea>
+          <br />
+          <br />
+          <label class="label">Email</label>
+          <br />
+          <br />
+          <textarea id="email"> </textarea>
+          <br />
+          <br />
+          <label class="label">Message</label>
+          <br />
+          <br />
+          <textarea id="message"> </textarea>
+          <br />
+          <br />
+          <button>
             <p>Submit</p>
-        </button>
+          </button>
         </div>
-        </div>   
+      </div>
     </div>
-    
+  </body>
 
-    <div class=bdm>
-        
-        
-        <footer class="footer">
-            <p class="footerText">© Copyright 2019 Don Nguyen</p>
-        </footer>
-
+  <footer class="social-footer">
+    <div class="social-footer-left">
+      <a href="#"><img class="logo" src="http://www.shop4shops.com.au/contents/media/coming%20soon%20125x125.jpg" /></a>
     </div>
+    <p class="footerText">© Copyright 2019 Don Nguyen</p>
+    <!-- <div class="social-footer-icons">
+        <ul class="menu simple">
+          <li><a href="https://www.facebook.com/tdonnguyen">Facebook<i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/TDPN">GitHub<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/TDPN/">LinkedIn<i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/Ryuuj11n"><g></g>Twitter<i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+    </div> -->
+    <div class="rounded-social-buttons">
+      <a
+        class="social-button facebook"
+        href="https://www.facebook.com/tdonnguyen"
+      ></a>
+      <a class="social-button twitter" href="https://twitter.com/Ryuuj11n"></a>
+      <a class="social-button linkedin" href="www.linkedin.com/in/TDPN"></a>
+      <a class="social-button github" href="https://github.com/TDPN"></a>
+    </div>
+  </footer>
 
-    
-   
-
-</body>
+  <!-- Compressed JavaScript -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+    integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
+    crossorigin="anonymous"
+  ></script>
 </html>

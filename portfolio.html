@@ -1,105 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Don Nguyen</title>
-    <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
-    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
-</head>
-
-<body>
-    <div class=container>
-        <div class=top>
-            <div class=topContent>
-                <div class=name>
-                    <h1>Don Nguyen</h1>
-                </div>
-                <nav class=header>
-                    <ul id="navbar">
-                        <li id=about>
-                            <a href="index.html">
-                                <h2 class=linkText>About</h2>
-                            </a>
-                        </li>
-                        <li id=portfolio>
-                            <a href="portfolio.html">
-                                <h2 class=linkText>Portfolio</h2>
-                            </a>
-                        </li>
-                        <li id=contact>
-                            <a href="contact.html">
-                                <h2 class=linkText>Contact</h2>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#"
+          ><strong>Welcome to Don's Portfolio</strong></a
+        >
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li>
+              <button
+                type="button"
+                class="button hollow topbar-responsive-button"
+              >
+                <i class="fa fa-info-circle"></i>
+                <a href="index.html">About</a>
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="button hollow topbar-responsive-button"
+              >
+                <i class="fa fa-briefcase"></i>
+                <a href="portfolio.html">Portfolio</a>
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="button hollow topbar-responsive-button"
+              >
+                <i class="fa fa-envelope"></i>
+                <a href="contact.html">Contact</a>
+              </button>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </nav>
 
 
-    <div class=mdl>
-        <div class=aboutMe>
-            <div class=title1>
-                <h2>Portfolio</h2>
-            </div>
-            <br>
-            <div class="main-box">
-                <div class="box-set">
-                    <div class="box">
-                        <img class=box-1
-                            src="https://images.unsplash.com/photo-1560420025-9453f02b4751?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=946&q=80">
-                        <a href="https://tdpn.github.io/Day-calendar/">
-                            <h3 class="boxlbl">Day Scheduler</h3>
-                        </a>
-                    </div>
-                    <div class="box">
-                        <img class="box-2"
-                            src="https://images.unsplash.com/photo-1511193311914-0346f16efe90?ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80">
-                        <a href="https://tdpn.github.io/Casino-game/">
-                            <h3 class="boxlbl">The Foul Mouth Gambler</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="box-set">
-                    <div class="box">
-                        <img class="box-3"
-                            src="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
-                        <a href="https://tdpn.github.io/Weather-Dashboard/">
-                            <h3 class="boxlbl">Weather Dashboard App</h3>
-                        </a>
-                    </div>
-                    <div class="box">
-                        <img class="box-4" src="assets/images/summonerswar.png">
-                        <h3 class="boxlbl">Future Project</h3></a>
-                    </div>
-                </div>
-                <!-- <div class="box-set">
-                    <div class="box">
-                        <img class="box-5" src="assets/images/Madden-2020.jpg">
-                        <h3 class="boxlbl">Future Project</h3></a>
-                    </div> -->
-                </div>
-            </div>
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css\reset.css" />
+    <link rel="stylesheet" type="text/css" href="css\header_footer.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css" />
+  </head>
+
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css\reset.css" />
+    <link rel="stylesheet" type="text/css" href="css\header_footer.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css" />
+
+    <body>
+      <section class="four-up-feature">
+        <div class="row four-up-feature-header align-center">
+          <div class="medium-8 columns">
+            <h2><strong>Portfolio</strong></h2>
+            <h5> Below are links to my previous projects you can check out.</h5>
+          </div>
         </div>
+        <div class="row align-spaced">
+          <div class="small-10 medium-3 columns">
+            <img class="four-up-feature-image" src="https://images.unsplash.com/photo-1470074558764-4e577e98bc85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2002&q=80" alt="icon">
+            <a href="https://travelcations.herokuapp.com/">
+              <h3><strong>CalTrips</strong></h3>
+          </a>
+            <p class="four-up-feature-text">An app that lets you and your friends plan a trip together.</p>
+          </div>
+          <div class="small-10 medium-3 columns">
+            <img class="four-up-feature-image" src="https://images.unsplash.com/photo-1511193311914-0346f16efe90?ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" alt="icon">
+            <a href="https://tdpn.github.io/Casino-game/">
+            <h3><strong>Foul Mouthed Gambler</strong></h3>
+          </a>
+            <p class="four-up-feature-text"> A game of Blackjack with a foul twist. </p>
+          </div>
+          <div class="small-10 medium-3 columns">
+            <img class="four-up-feature-image" src="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="icon">
+            <a href="https://tdpn.github.io/Weather-Dashboard/">
+              <h3><strong>Weather Dashboard</strong></h3>
+          </a>
+            <p class="four-up-feature-text">An App that allows you to pick a city and the current Weather Forecast</p>
+          </div>
+          <div class="small-10 medium-3 columns">
+            <img class="four-up-feature-image" src="https://images.unsplash.com/photo-1560420025-9453f02b4751?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=946&q=80" alt="icon">
+            <a href="https://tdpn.github.io/Day-calendar/">
+              <h3><strong>Day Scheduler</strong></h3>
+            </a>
+            <p class="four-up-feature-text">An app that lets you plan out your daily tasks</p>
+          </div>
+        </div>
+      </section>
+      
+      
+        </body>
+        <br />
+
+  <footer class="social-footer">
+    <div class="social-footer-left">
+      <a href="#"><img class="logo" src="http://www.shop4shops.com.au/contents/media/coming%20soon%20125x125.jpg" /></a>
     </div>
-    <br />
-
-
-
-
-    <div class=bdm>
-
-        <footer class="footer">
-            <p class="footerText">© Copyright 2019 Don Nguyen</p>
-        </footer>
-
-
+    <p class="footerText">© Copyright 2019 Don Nguyen</p>
+  
+    <div class="rounded-social-buttons">
+      <a
+        class="social-button facebook"
+        href="https://www.facebook.com/tdonnguyen"
+      ></a>
+      <a class="social-button twitter" href="https://twitter.com/Ryuuj11n"></a>
+      <a class="social-button linkedin" href="www.linkedin.com/in/TDPN"></a>
+      <a class="social-button github" href="https://github.com/TDPN"></a>
     </div>
+  </footer>
 
-</body>
-
+  <!-- Compressed JavaScript -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+    integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
+    crossorigin="anonymous"
+  ></script>
 </html>
