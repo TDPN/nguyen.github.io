@@ -1,9 +1,6 @@
 
 body{
     background-image: url(https://images.unsplash.com/photo-1521668576204-57ae3afee860?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
-    position: fixed;
-    left: 0%;
-    top: 0%;
     }
 
 h1{
@@ -237,7 +234,6 @@ button{
     background-color: rgb(202, 202, 226);
     color: rgb(62, 33, 165);
     padding: 0.5em;
-
     
 }
 

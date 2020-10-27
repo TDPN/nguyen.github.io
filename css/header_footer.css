@@ -238,7 +238,7 @@
   transition: color 0.3s ease-in;
 }
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 .rounded-social-buttons {
   text-align: center;
